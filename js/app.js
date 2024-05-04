@@ -9,7 +9,7 @@ fetch (
 	data.items.forEach(el => {
 	videoSection.innerHTML += `
 
-			<div class="col-sm-3">
+			<div class="col-sm-6">
 				<div class="single-post-area wow fadeInUpBig" data-wow-delay="100ms">
                     <a href="https://www.youtube.com/watch?v=${el.snippet.resourceId.videoId}" class="post-thumbnail"><img src="${el.snippet.thumbnails.standard.url}" alt=""></a>
                     <a href="https://www.youtube.com/channel/UCorr2WMm7QDmJL7Miz-r1gg?sub_confirmation=1" class="btn post-catagory">${el.snippet.channelTitle}</a>
